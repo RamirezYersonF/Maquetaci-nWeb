@@ -1,0 +1,23 @@
+.value{
+    color: var(--very-light-pink);
+    font-size: var(--md);
+    margin: 8px 0 32px 0;
+}
+.secodary-button{
+    background-color: var(--white);
+    border-radius: 8px;
+    border: solid 1px var(--hospital-green);
+    color: var(--hospital-green);
+    width: 100%;
+    cursor: pointer;
+    font-size: var(--md);
+    font-weight: bold;
+    height: 50px;
+}
+@media (max-width:640px){
+    .secodary-button{
+        width: 300px;
+        position: absolute;
+        bottom: 0px;
+    }
+}
